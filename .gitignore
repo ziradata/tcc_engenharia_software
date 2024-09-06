@@ -34,3 +34,6 @@ applications/nginx_proxy_manager/letsencrypt/*
 applications/nginx_proxy_manager/data/*
 
 
+applications/spark/notebooks/.ipython/profile_default/history.sqlite
+applications/spark/notebooks/.ipython/profile_default/startup/README
+applications/spark/notebooks/.npm/_logs/2024-08-31T08_35_51_670Z-debug-0.log
