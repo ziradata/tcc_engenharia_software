@@ -12,9 +12,7 @@ services:
       - db_data:/var/lib/postgresql/data
     networks:
       - sparkanos
-    extra_hosts:
-      - "host.docker.internal:host-gateway"   
-
+  
 volumes:
   db_data:
     driver: local

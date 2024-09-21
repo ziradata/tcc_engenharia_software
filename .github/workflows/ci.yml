@@ -4,7 +4,7 @@ on:
   push:
     branches: ['main']
     paths:
-      - ./applications/postgres_adventureworks/docker-compose.yml
+      - applications/postgres_adventureworks/docker-compose.yml
 
 jobs:
   CI:
