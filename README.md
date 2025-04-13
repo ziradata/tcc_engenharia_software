@@ -1,4 +1,4 @@
-# zira projeto de TCC Engenharia de Software da unialfa
+# PROJETO TCC 1 ENGENHARIA DE SOFTWARE - FACULDADE UNIALFA
 # DATA LAKE E DATA WAREHOUSE PARA PEQUENAS E MÉDIAS EMPRESAS DE LOGÍSTICA:
 # Uma abordagem com ferramentas open source para apoio a tomada de decisão em tempo real. 
 
