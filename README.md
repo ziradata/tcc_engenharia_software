@@ -1,4 +1,7 @@
-# Sparkanos Project
+# zira projeto de TCC Engenharia de Software da unialfa
+# DATA LAKE E DATA WAREHOUSE PARA PEQUENAS E MÉDIAS EMPRESAS DE LOGÍSTICA:
+# Uma abordagem com ferramentas open source para apoio a tomada de decisão em tempo real. 
+
 
 Esse projeto tem como finalidade prover um ambiente big data/modern data stack usando um ambiente de containers com Docker. Além de ferramentas exclusivas open source.
 
