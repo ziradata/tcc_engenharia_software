@@ -1,4 +1,4 @@
-# Sparkanos Project
+# zira projeto de TCC Engenharia de Software da unialfa
 
 Esse projeto tem como finalidade prover um ambiente big data/modern data stack usando um ambiente de containers com Docker.
 
