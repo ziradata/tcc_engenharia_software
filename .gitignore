@@ -1,6 +1,7 @@
 #Project
 venv/
 applications/__pycache__/*
+.venv
 
 #Airflow
 applications/airflow/dags/__pycache__/*

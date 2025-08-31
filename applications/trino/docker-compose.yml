@@ -1,6 +1,7 @@
 services:
   trino:
     image: trinodb/trino:405
+    platform: linux/amd64
     container_name: trino
     hostname: trino
     ports:
@@ -19,6 +20,7 @@ services:
 
   metastore-db:
     image: wlcamargo/mariadb
+    platform: linux/amd64
     container_name: metastore-db
     networks:
       - sparkanos
@@ -31,6 +33,7 @@ services:
   
   create-metastore-schema:
     image: wlcamargo/hive-metastore 
+    platform: linux/amd64
     container_name: create-metastore-schema
     depends_on:
       - metastore-db
@@ -43,6 +46,7 @@ services:
   
   metastore:
     image: wlcamargo/hive-metastore
+    platform: linux/amd64
     container_name: metastore
     networks:
       - sparkanos

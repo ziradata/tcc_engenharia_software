@@ -1,5 +1,6 @@
 x-spark-common: &spark-common
   image: wlcamargo/spark-master
+  platform: linux/amd64
   networks:
     - sparkanos
   extra_hosts:
@@ -19,7 +20,7 @@ services:
     volumes:
       - ./conf/util:/util
       - ./conf/env:/env
-      - ${NOTEBOOK_PATH}:/home/user/work
+      - ./src/notebooks:/home/user/work 
     ports:
       - 8889:8888 # Jupyter
       - 8083:8080 # Spark UI

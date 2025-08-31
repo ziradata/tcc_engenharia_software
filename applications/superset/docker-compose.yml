@@ -3,7 +3,15 @@ x-superset-depends-on: &superset-depends-on
   - db
   - redis
 
+
+x-superset-platform: &superset-platform
+  platform: linux/amd64
+
+
 x-superset-volumes: &superset-volumes
+
+
+
   # /app/pythonpath_docker will be appended to the PYTHONPATH in the final container
   - ./docker:/app/docker
   - superset_home:/app/superset_home
@@ -11,6 +19,7 @@ x-superset-volumes: &superset-volumes
 services:
   redis:
     image: wlcamargo/redis:latest
+    platform: linux/amd64
     volumes:
       - redis:/data
     networks:
@@ -28,6 +37,7 @@ services:
 
   postgres:
     image: wlcamargo/postgres:13
+    platform: linux/amd64
     networks:
       - sparkanos    
     environment:
@@ -56,7 +66,8 @@ services:
     networks:
       - sparkanos
     extra_hosts:
-      - "host.docker.internal:host-gateway"
+      - "host.docker.internal:host-gateway" 
+    platform: linux/amd64
 
   superset:
     env_file: docker/.env-non-dev
@@ -73,6 +84,7 @@ services:
       - sparkanos
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    platform: linux/amd64
 
   superset-init:
     image: *superset-image
@@ -86,6 +98,7 @@ services:
       - sparkanos
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    platform: linux/amd64
 
   superset-worker:
     image: *superset-image
@@ -100,6 +113,7 @@ services:
       - sparkanos
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    platform: linux/amd64
 
   superset-worker-beat:
     image: *superset-image
@@ -114,6 +128,7 @@ services:
       - sparkanos
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    platform: linux/amd64
 
 volumes:
   superset_home:
