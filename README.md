@@ -1,7 +1,10 @@
-## Projeto de TCC do curso de Engenharia de Software da Faculdade Unialfa.
-## DATA LAKE E DATA WAREHOUSE PARA PEQUENAS E MÉDIAS EMPRESAS DE LOGÍSTICA:
+## DESENVOLVIMENTO DE UM DATAWAREHOUSE PARA PEQUENAS E MÉDIAS EMPRESAS DE TRANSPORTES RODOVIÁRIO DE CARGAS.
+
+
+
 ### Uma abordagem com ferramentas open source para apoio a tomada de decisão em tempo real para pequenas empresas de transportes rodoviário de cargas, neste projeo criaremos um data warehouse utilizando apenas ferramentas open source, como PostegreSQL, Trino, Dbeaver, AirFlow e Apache Superset.
 
+### Projeto de TCC do curso de Engenharia de Software da Faculdade Unialfa.
 
 ``
 
