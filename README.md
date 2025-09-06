@@ -1,4 +1,4 @@
-    # Construção de Data Warehouse com Ferramentas Open Source
+## TCC Engenharia de Software - Construção de Data Warehouse com Ferramentas Open Source
 
 ## Resumo do Projeto
 
@@ -24,7 +24,7 @@ A solução de baixo custo foi desenvolvida com a seguinte pilha de ferramentas:
 
 * **Apache Superset**: Uma ferramenta de visualização para criar dashboards intuitivos e eficientes, permitindo a equipe operacional formular perguntas sobre os dados sem depender de analistas.
 
-* * **Apache Spark**: Um motor de análise unificada para processamento de dados em larga escala. Ele é projetado para lidar com cargas de trabalho de big data de forma rápida e eficiente
+* **Apache Spark**: Um motor de análise unificada para processamento de dados em larga escala. Ele é projetado para lidar com cargas de trabalho de big data de forma rápida e eficiente
 ---
 
 ## Colaboradores
