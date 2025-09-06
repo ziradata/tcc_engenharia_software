@@ -1,20 +1,20 @@
-## DESENVOLVIMENTO DE UM DATAWAREHOUSE PARA PEQUENAS E MÉDIAS EMPRESAS DE TRANSPORTES RODOVIÁRIO DE CARGAS.
+# TCC - Projeto de Engenharia de Software para desenvolvimento de Data Warehouse
 
+Este é o repositório do projeto de Data Warehouse, desenvolvido como Trabalho de Conclusão de Curso.
 
+## Colaboradores
 
-### Uma abordagem com ferramentas open source para apoio a tomada de decisão em tempo real para pequenas empresas de transportes rodoviário de cargas, neste projeo criaremos um data warehouse utilizando apenas ferramentas open source, como PostegreSQL, Trino, Dbeaver, AirFlow e Apache Superset.
+* **[João Pedro Sani Gedvila]** - Responsável pela **Extração e Tratamento de Dados**.
+    * Tarefas: Extração de dados dos sistemas, limpeza e disponibilização nos bancos de dados.
 
-### Projeto de TCC do curso de Engenharia de Software da Faculdade Unialfa.
+* **[Guilherme Ribeiro]** - Responsável pelo **Fluxo de Trabalho e Conexões**.
+    * Tarefas: Configuração de conexões com Trino, Airflow, PostgreSQL e orquestração de fluxos de dados.
 
-``
+* **[Eduardo Lima Junior ]** - Responsável por **Data Analytics**.
+    * Tarefas: Desenvolvimento de dashboards e visualizações usando Apache Superset.
 
-Execute o comando abaixo para baixar a imagem e rodar o container da documentação:
-```
-docker compose up -d documentation
-```
+* **[Francisco Assis Silva]** - **Gerente de Projeto e Administrador do Repositório**.
+    * Tarefas: Gestão do repositório, revisão de código e garantia de qualidade.
 
-### Como acessar a documentação?
-
-clique no link abaixo ou digite no navegador:
-
-http://localhost:8005/
+* **[George Marra]** - **Professor Orientador e Revisor Sênior**.
+    * Tarefas: Orientação técnica e aprovação de Pull Requests.
