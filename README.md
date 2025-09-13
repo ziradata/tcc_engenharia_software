@@ -45,4 +45,4 @@ Este trabalho de conclusão de curso, do curso de Engenharia de Software do Cent
 
 ## Orientador fase II
 
-* Prof. Me. George Marra
+* Prof. Me. George Mendes Marra
