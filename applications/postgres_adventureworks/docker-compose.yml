@@ -2,7 +2,7 @@ services:
   postgres_adventureworks:
     hostname: postgres_adventureworks
     container_name: postgres_adventureworks
-    image: chriseaton/adventureworks:postgres
+    image: wlcamargo/postgres-adventureworks
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
@@ -10,6 +10,7 @@ services:
       - '5435:5432'
     volumes:
       - db_data:/var/lib/postgresql/data
+    restart: always
     networks:
       - sparkanos
   
