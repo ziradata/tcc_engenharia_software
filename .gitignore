@@ -2,6 +2,12 @@
 venv/
 applications/__pycache__/*
 .venv
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+.env
+
 
 #Airflow
 applications/airflow/dags/__pycache__/*
@@ -29,6 +35,12 @@ applications/open_metadata/docker-volume
 terraform/key_gcp.json
 terraform/.terraform.lock.hcl
 terraform/.terraform/providers/registry.terraform.io/hashicorp/google/4.51.0/linux_amd64/terraform-provider-google_v4.51.0_x5
+*.env
+.env.*
+*.secret
+*.pem
+*.key
+*.crt
 
 #Proxy Manager
 applications/nginx_proxy_manager/letsencrypt/*
@@ -38,3 +50,16 @@ applications/nginx_proxy_manager/data/*
 applications/spark/notebooks/.ipython/profile_default/history.sqlite
 applications/spark/notebooks/.ipython/profile_default/startup/README
 applications/spark/notebooks/.npm/_logs/2024-08-31T08_35_51_670Z-debug-0.log
+
+#arquivos temporarios
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+#arquivos de build
+dist/
+build/
+*.egg-info/
